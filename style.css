@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    text-align: center;
+    background-color: #1e1e1e;
+  }
+  
+  .background {
+    background-image: url('depositphotos_445132136-stock-illustration-minecraft-game-january-2021-sample.jpg'); /* Fondo de Minecraft */
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    padding-top: 60px;
+  }
+  
+  h1 {
+    background-color: #2ecc71;
+    margin: 0;
+    padding: 20px;
+    font-size: 36px;
+  }
+  
+  .intro {
+    margin: 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .game-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  .block {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #2ecc71;
+    cursor: pointer;
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  
+  .block:hover {
+    transform: scale(1.2);
+    filter: brightness(1.5);
+  }
+  
+  .stone {
+    background-image: url('Minecraft-creeper-face.jpg');
+    background-size: cover;
+  }
+  
+  .dirt {
+    background-image: url('Minecraft-creeper-face.jpg');
+    background-size: cover;
+  }
+  
+  .wood {
+    background-image: url('Minecraft-creeper-face.jpg');
+    background-size: cover;
+  }
+  
+  .diamond {
+    background-image: url('Minecraft-creeper-face.jpg');
+    background-size: cover;
+  }
+  
+  .grass {
+    background-image: url('Minecraft-creeper-face.jpg');
+    background-size: cover;
+  }
+  
+  .message-box {
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 14px;
+    color: #2ecc71;
+    min-height: 60px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+  }
+  
+  footer {
+    margin-top: 60px;
+    font-size: 12px;
+    color: #aaa;
+  }
+  
+  .restart-button {
+    background-color: #2ecc71;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  
+  .restart-button:hover {
+    background-color: #27ae60;
+  }
+  
+  @keyframes flash {
+    0% { background-color: transparent; }
+    50% { background-color: #e74c3c; }
+    100% { background-color: transparent; }
+  }
+  
+  @keyframes heartPulse {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.2); opacity: 0.8; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+  
+
+  

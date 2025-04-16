@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MaxwellCraft</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+  <link rel="icon" href="https://www.minecraft.net/favicon.ico" />
+</head>
+<body>
+  <div class="background">
+    <h1>MaxwellCraft</h1>
+    <p class="intro">Maxwell, haz clic en los bloques para descubrir sus secretos…</p>
+
+    <div class="game-container">
+      <div class="block stone" onclick="revealMessage(0)"></div>
+      <div class="block dirt" onclick="revealMessage(1)"></div>
+      <div class="block wood" onclick="revealMessage(2)"></div>
+      <div class="block diamond" onclick="revealMessage(3)"></div>
+      <div class="block grass" onclick="revealMessage(4)"></div>
+    </div>
+
+    <div class="message-box" id="messageBox"></div>
+  
+    <button class="restart-button" onclick="restartGame()">Reiniciar Juego</button>
+
+    <footer>Hecho para ti, Maxwell. Porque cada bloque tiene algo de magia…</footer>
+
+    <audio id="music" loop controls autoplay>
+      <source src="All Minecraft Creeper Sounds  Sound Effects for Editing .mp3" type="audio/mp3">
+      <source src="All Minecraft Creeper Sounds Sound Effects for Editing.ogg" type="audio/ogg">
+      Tu navegador no soporta audio.
+    </audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
